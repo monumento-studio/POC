@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'PFRegalTextPro-RegularA';
+  src: url('../fonts/PFRegalTextPro-RegularA.eot?#iefix') format('embedded-opentype'),  url('../fonts/PFRegalTextPro-RegularA.otf')  format('opentype'),
+	     url('../fonts/PFRegalTextPro-RegularA.woff') format('woff'), url('../fonts/PFRegalTextPro-RegularA.ttf')  format('truetype'), url('../fonts/PFRegalTextPro-RegularA.svg#PFRegalTextPro-RegularA') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'PFRegalTextPro-RegularAItalic';
+  src: url('../fonts/PFRegalTextPro-RegularAItalic.eot?#iefix') format('embedded-opentype'),  url('../fonts/PFRegalTextPro-RegularAItalic.otf')  format('opentype'),
+	     url('../fonts/PFRegalTextPro-RegularAItalic.woff') format('woff'), url('../fonts/PFRegalTextPro-RegularAItalic.ttf')  format('truetype'), url('../fonts/PFRegalTextPro-RegularAItalic.svg#PFRegalTextPro-RegularAItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+$pf-r: 'PFRegalTextPro-RegularA';
+$pf-i: 'PFRegalTextPro-RegularAItalic';
