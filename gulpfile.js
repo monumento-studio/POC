@@ -200,7 +200,7 @@ gulp.task('sass', function () {
  * Следим за изменением файлов
  */
 gulp.task('watch', function () {
-	gulp.watch(paths.input.sass + '**/*.scss', ['sass']);
+	gulp.watch(paths.input.sass + '**/*', ['sass']);
 	gulp.watch(paths.input.js + '**/*.js', ['javascript']);
 	gulp.watch(paths.input.images + '**/*', ['image-min']);
   gulp.watch(paths.input.fonts + '**/*', ['fonts']);
