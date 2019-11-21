@@ -58,6 +58,7 @@
     margin-left: 60px
     margin-top: 150px
     .social
+      margin-top: 20px
       a  img
         height: 13px
         margin-right: 10px
@@ -66,3 +67,17 @@
   display: block
   margin-left: 60px
   bottom: 50px
+
+@media screen and (max-width: 750px)
+  #menu-header
+    .items
+      display: none
+  #menu-left
+    width: 100%
+    left: -100%
+    .links1
+      .social
+        a  img
+          height: 18px
+  .links2
+    bottom: 90px
