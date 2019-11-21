@@ -1,8 +1,13 @@
 a
   color: $black
   text-decoration: none
+  transition: border-bottom-color 350ms ease-in-out
+  border-bottom-color: rgba(0,0,0,0)
   &:hover
     opacity: 1 !important
+    border-bottom: solid 1px
+    border-bottom-color: rgba(0,0,0,1)
+    transition: border-bottom-color 350ms ease-in-out
 
 a.uno
   opacity: .5

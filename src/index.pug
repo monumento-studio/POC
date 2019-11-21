@@ -8,8 +8,34 @@ html
         meta(name="description" content="")
         link(rel="stylesheet" href="/css/style.css")
     body
-      .container#home
+      .container#portfolio
         include _partials/menu
         .imagenes_grid
-          img(src="/img/avatar.svg" alt="avatar")
+          a(href="#").item
+            img(src="/img/img1.jpg" alt="POC image")
+            .title
+              h2 Project Title
+          a(href="#").item
+            img(src="/img/img2.jpg" alt="POC image")
+            .title
+              h2 Project Title
+          a(href="#").item
+            img(src="/img/img3.jpg" alt="POC image")
+            .title
+              h2 Project Title
+          a(href="#").item
+            img(src="/img/img4.jpg" alt="POC image")
+            .title
+              h2 Project Title
+          a(href="#").item
+            img(src="/img/img5.jpg" alt="POC image")
+            .title
+              h2 Project Title
+              
+          a(href="#").item
+            img(src="/img/img6.jpg" alt="POC image")
+            .title
+              h2 Project Title
         include _partials/footer
+        
+        script(src='/js/script.js')

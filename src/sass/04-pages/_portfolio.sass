@@ -1,0 +1,34 @@
+#portfolio
+  .imagenes_grid
+    width: 100%
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-gap: 60px
+    a.item
+      height: 500px
+      margin: 0 auto
+      position: relative
+      border: none !important
+      img
+        height: 100%
+        max-width: 100%
+      .title
+        opacity: 0
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: $white
+        transition: opacity 350ms ease-in-out
+        &:hover
+          transition: opacity 350ms ease-in-out
+          opacity: 0.75
+        h2
+          font-family: $pf-i
+          font-size: 1.875rem
+          position: absolute
+          top: 50%
+          left: 50%
+          transform: translate(-50%, -50%)
+          position: absolute
