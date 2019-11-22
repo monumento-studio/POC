@@ -104,18 +104,11 @@ gulp.task('image-min', function () {
  * Образец: в index.pug передаются данные из index.pug.json
  */
 gulp.task('pug', function () {
-	return gulp.src('./src/*.pug')
-	.pipe(plumber())
-	.pipe(data(function (file) {
-		const json = paths.input.data + path.basename(file.path) + '.json';
-		delete require.cache[require.resolve(json)];
-		return require(json);
-	}))
-	.pipe(pug({pretty: true}))
-	.pipe(gulp.dest(paths.public))
-	.pipe(browserSync.reload({
-		stream: true
-	}));
+
+  gulp.src('./src/*.pug')
+  .pipe(pug())
+  .pipe(gulp.dest(paths.public))
+
 });
 
 /**
@@ -204,7 +197,7 @@ gulp.task('watch', function () {
 	gulp.watch(paths.input.js + '**/*.js', ['javascript']);
 	gulp.watch(paths.input.images + '**/*', ['image-min']);
   gulp.watch(paths.input.fonts + '**/*', ['fonts']);
-	gulp.watch(['./src/**/*.pug', './src/**/*.json'], ['pug']);
+	gulp.watch(['./src/**/*.pug'], ['pug']);
 });
 
 /**

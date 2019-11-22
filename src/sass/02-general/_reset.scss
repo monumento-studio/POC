@@ -183,6 +183,7 @@ sub {
 
 img {
   border: 0;
+  width: 100%;
 }
 
 /**
@@ -430,4 +431,8 @@ th {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: normal;
+}
+
+h2 {
+  font-size: 1.832rem
 }

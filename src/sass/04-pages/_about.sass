@@ -1,0 +1,30 @@
+#about
+  .texto-imagen
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-column-gap: 25px
+    margin: 100px 0
+    .left
+      width: 60%
+      margin: 0 auto
+  .texto
+    margin: 100px auto
+    width: 60%
+    text-align: center
+  .imagen-imagen
+    display: grid
+    grid-gap: 25px
+    grid-template-columns: 1fr 1fr
+@media screen and (max-width: 750px)
+  #about
+    .texto-imagen
+      grid-template-columns: 1fr
+      .left
+        width: 100%
+        margin: 0 auto 50px
+    .texto
+      width: 100%
+      text-align: center
+    .imagen-imagen
+      grid-gap: 25px
+      grid-template-columns: 1fr
