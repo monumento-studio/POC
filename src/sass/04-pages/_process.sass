@@ -1,0 +1,63 @@
+#process
+  #menu-header
+    .items
+      display: none
+  .texto-process
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-column-gap: 25px
+    margin: 100px 0
+    align-items: center
+    justify-items: center
+    .left
+      width: 60%
+      margin: 0 auto
+      h2, a
+        font-family: $pf-i
+    .right
+      display: grid
+      grid-template-columns: 160px 160px 160px
+      grid-gap: 10px 25px
+      text-align: center
+      .proceso .nombre
+        border: solid 1px $black
+        border-radius: 50%
+        height: 160px
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        padding: 20px
+        box-sizing: border-box
+        h3
+          font-family: $pf-i
+@media screen and (max-width: 970px)
+  #process
+    .texto-process
+      grid-template-columns: 1fr
+      .left
+        width: 100%
+      .right
+        margin-top: 50px
+
+
+@media screen and (max-width: 750px)
+  #process
+    .texto-process
+      grid-template-columns: 1fr
+      .left
+        width: 100%
+      .right
+        margin-top: 50px
+        grid-template-columns: 160px
+        grid-gap: 25px
+        .proceso .nombre
+          border: solid 1px $black
+          border-radius: 50%
+          height: 160px
+          width: 100%
+          display: flex
+          justify-content: center
+          align-items: center
+          padding: 20px
+          box-sizing: border-box
