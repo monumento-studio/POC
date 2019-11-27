@@ -1,0 +1,30 @@
+doctype html
+html
+    head
+        title Poc Studio | B Street
+        meta(charset="utf-8")
+        meta(http-equiv="x-ua-compatible" content="ie=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1")
+        meta(name="description" content="")
+        link(rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css")
+        link(rel="stylesheet" href="/css/style.css")
+    body
+      .container#project
+        include _partials/menu
+        .imagenes-texto
+          .imagenes-slick
+            .owl-carousel
+              img(src="./img/img10.jpg" alt="Poc image").slide
+              img(src="./img/img9.jpg" alt="Poc image").slide
+              img(src="./img/img8.jpg" alt="Poc image").slide
+              img(src="./img/img7.jpg" alt="Poc image").slide
+              img(src="./img/img6.jpg" alt="Poc image").slide
+          .texto
+            .titulo
+            .info
+        
+        
+        include _partials/footer
+        
+        script(src='/js/script.js')
+        script(type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")

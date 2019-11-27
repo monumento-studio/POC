@@ -5,8 +5,9 @@
 
 
 //02-general
-
 @import "02-general/reset";
+@import "02-general/owl.carousel.min";
+@import "02-general/owl.theme.default.min";
 @import "02-general/general";
 
 
@@ -26,3 +27,4 @@
 @import "04-pages/about";
 @import "04-pages/process";
 @import "04-pages/contact";
+@import "04-pages/project";
