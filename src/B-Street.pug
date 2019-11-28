@@ -6,25 +6,50 @@ html
         meta(http-equiv="x-ua-compatible" content="ie=edge")
         meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1")
         meta(name="description" content="")
-        link(rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css")
         link(rel="stylesheet" href="/css/style.css")
     body
       .container#project
         include _partials/menu
         .imagenes-texto
           .imagenes-slick
-            .owl-carousel
-              img(src="./img/img10.jpg" alt="Poc image").slide
-              img(src="./img/img9.jpg" alt="Poc image").slide
-              img(src="./img/img8.jpg" alt="Poc image").slide
-              img(src="./img/img7.jpg" alt="Poc image").slide
-              img(src="./img/img6.jpg" alt="Poc image").slide
+            .owl-carousel.owl-theme
+              .item
+                img(src="./img/B1.JPG" alt="Poc image")
+              .item
+                img(src="./img/B2.JPG" alt="Poc image")
+              .item
+                img(src="./img/B3.JPG" alt="Poc image")
+              .item
+                img(src="./img/B4.JPG" alt="Poc image")
+              .item
+                img(src="./img/B5.JPG" alt="Poc image")
           .texto
             .titulo
+              h2 B Street
             .info
+              .item
+                h4 Architect/Designer
+                p BNIM Architecture Firm
+              .item
+                h4 Builder
+                p Jaime Partners
+              .item 
+                h4 Contribution
+                p Drink rails, privacy screens, planters 
+              .item
+                h4 Material(s)
+                p Aluminum, Hot rolled steel
+              .item 
+                h4 Finish(es)
+                p Satin black powder coat
+        .next-proj
+          .izquierda
+            a(href="") ← Previous Project
+          .derecha
+            a(href="") Next Project →
         
         
         include _partials/footer
         
         script(src='/js/script.js')
-        script(type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
+        
