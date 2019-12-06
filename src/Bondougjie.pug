@@ -1,0 +1,56 @@
+doctype html
+html
+    head
+        title Poc Studio | Bondougjie
+        meta(charset="utf-8")
+        link(rel="icon" type="image/png" href="./img/favicon.png")
+        meta(http-equiv="x-ua-compatible" content="ie=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1")
+        meta(name="description" content="")
+        link(rel="stylesheet" href="/css/style.css")
+    body
+      .container#project
+        include _partials/menu
+        .imagenes-texto
+          .imagenes-slick
+            .owl-carousel.owl-theme
+              .item
+                img(src="./img/bon1.jpg" alt="Poc image")
+              .item
+                img(src="./img/bon2.jpg" alt="Poc image")
+              .item
+                img(src="./img/bon3.jpg" alt="Poc image")
+              .item
+                img(src="./img/bon4.jpg" alt="Poc image")
+              .item
+                img(src="./img/bon5.jpg" alt="Poc image")
+          .texto
+            .titulo
+              h2 Bondougjie
+            .info
+              .item
+                h4 Architect/Designer
+                p Poc Studio
+              .item
+                h4 Builder
+                p Poc Studio
+              .item 
+                h4 Contribution
+                p Bolt on pergola 
+              .item
+                h4 Material(s)
+                p 6061-T6 Aluminum
+              .item 
+                h4 Finish(es)
+                p Textured polyurethane finish
+        .next-proj
+          .izquierda
+            a(href="B-Street.html") ← Previous Project
+          .derecha
+            a(href="DuChateau.html") Next Project →
+        
+        
+        include _partials/footer
+        
+        script(src='/js/script.js')
+        

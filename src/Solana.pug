@@ -1,0 +1,52 @@
+doctype html
+html
+    head
+        title Poc Studio | Solana
+        meta(charset="utf-8")
+        link(rel="icon" type="image/png" href="./img/favicon.png")
+        meta(http-equiv="x-ua-compatible" content="ie=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1")
+        meta(name="description" content="")
+        link(rel="stylesheet" href="/css/style.css")
+    body
+      .container#project
+        include _partials/menu
+        .imagenes-texto
+          .imagenes-slick
+            .owl-carousel.owl-theme
+              .item
+                img(src="./img/so01.jpg" alt="Poc image")
+              .item
+                img(src="./img/so02.jpg" alt="Poc image")
+              .item
+                img(src="./img/so03.jpg" alt="Poc image")
+          .texto
+            .titulo
+              h2 Solana
+            .info
+              .item
+                h4 Architect/Designer
+                p Falling Waters Landscape
+              .item
+                h4 Prime Contractor/Builder
+                p Falling Waters Landscape
+              .item 
+                h4 Contribution
+                p Terracing planter
+              .item
+                h4 Material(s)
+                p Corten Steel
+              .item 
+                h4 Finish(es)
+                p Raw Corten Steel
+        .next-proj
+          .izquierda
+            a(href="Social-Tap.html") ← Previous Project
+          .derecha
+            a(href="Tamborrell.html") Next Project →
+        
+        
+        include _partials/footer
+        
+        script(src='/js/script.js')
+        

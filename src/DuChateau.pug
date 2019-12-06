@@ -1,0 +1,62 @@
+doctype html
+html
+    head
+        title Poc Studio | DuChateau
+        meta(charset="utf-8")
+        link(rel="icon" type="image/png" href="./img/favicon.png")
+        meta(http-equiv="x-ua-compatible" content="ie=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1")
+        meta(name="description" content="")
+        link(rel="stylesheet" href="/css/style.css")
+    body
+      .container#project
+        include _partials/menu
+        .imagenes-texto
+          .imagenes-slick
+            .owl-carousel.owl-theme
+              .item
+                img(src="./img/du1.jpg" alt="Poc image")
+              .item
+                img(src="./img/du2.jpg" alt="Poc image")
+              .item
+                img(src="./img/du3.jpg" alt="Poc image")
+              .item
+                img(src="./img/du4.jpg" alt="Poc image")
+              .item
+                img(src="./img/du5.jpg" alt="Poc image")
+              .item
+                img(src="./img/du6.jpg" alt="Poc image")
+              .item
+                img(src="./img/du7.jpg" alt="Poc image")
+              .item
+                img(src="./img/du8.jpg" alt="Poc image")
+          .texto
+            .titulo
+              h2 DuChateau
+            .info
+              .item
+                h4 Architect/Designer
+                p Sotelo Landscape Architects
+              .item
+                h4 Builder
+                p Ownership
+              .item 
+                h4 Contribution
+                p Curved retention wall, Metal screen install, Greenwall structure 
+              .item
+                h4 Material(s)
+                p Mild steel, Corten steel, Aluminum
+              .item 
+                h4 Finish(es)
+                p Satin black and Satin white powder coat 
+        .next-proj
+          .izquierda
+            a(href="Bondougjie.html") ← Previous Project
+          .derecha
+            a(href="Iantorno.html") Next Project →
+        
+        
+        include _partials/footer
+        
+        script(src='/js/script.js')
+        
